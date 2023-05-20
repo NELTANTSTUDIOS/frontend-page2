@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background:url(/3D-model-of-a-character.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 254, 253));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    margin: 100px;
+}
+
+
+.logo{
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(255, 99, 206);
+}
+
+.mmmm{
+    color: rgb(3, 44, 81);
+}
+
+.nav-item{
+    margin-right: 40px;
+    list-style: none;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    background-color: #f684af;
+    
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 1 10%;
+}
+
+.home-content{
+    background: ;
+    max-width: 800px;
+    margin: 200px;
+}
+
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+
+.home-content p{
+    color: aliceblue;
+}
+
+.gg{
+    font-size: 30px;
+    color: rgb(238, 80, 185);
+}
+
+.rectangle{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: satuate;
+    height: 300px;
+    width: 400px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 2px 2px 17px rgb(71, 143, 221);
+}
+
+.jjj{
+    margin: 30px;
+}
+.who{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.uuu{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: aliceblue;
+}
+
+.demoney{
+    display: flex;
+    justify-content: center;
+}
